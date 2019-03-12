@@ -6,10 +6,10 @@ import React from 'react'
 export default function Article ({listArticle}) {
 
      const userName = listArticle.map(listArticle =>
-     <li>{listArticle.type}</li>
+     <div>{listArticle.type}</div>
      );
 return(
-    <ul>{userName}</ul>
+    <div>{userName}</div>
 )
 
 }
