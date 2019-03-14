@@ -1,15 +1,22 @@
 
-import React from 'react'
-// import listArticle from '../listArticle'
+import React,{Component} from 'react'
+
+import PostData from '../data/listArticle.json'
 
 
-export default function Article ({listArticle}) {
 
-     const userName = listArticle.map(listArticle =>
-     <div>{listArticle.type}</div>
-     );
-return(
-    <div>{userName}</div>
-)
+class Article extends Component {
+    render(){
+        return (
+            <div>
+                {PostData.map((postDetail,indexs,arr)=>{
+                    return <div>{postDetail.type}</div>
+                })};
+            </div>
+        )
+    }
 
 }
+
+
+export default Article

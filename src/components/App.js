@@ -3,14 +3,13 @@
  */
 import React from 'react'
 import Article from './Article'
-import listArticle from '../listArticle'
 
 function App() {
-return (
-    <div>
-        <Article listArticle = {listArticle}/>
-    </div>
-)
+    return (
+        <div>
+            <Article/>
+        </div>
+    )
 }
 export default App
 

@@ -1,7 +1,5 @@
-/**
- * Created by Admin on 11.03.2019.
- */
- export default [
+
+[
     {
         "login": "mojombo",
         "id": 1,
