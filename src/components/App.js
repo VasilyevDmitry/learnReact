@@ -2,12 +2,12 @@
  * Created by Admin on 11.03.2019.
  */
 import React from 'react'
-import Article from './Article'
+import ArticleType from './ArticleType'
 
 function App() {
     return (
         <div>
-            <Article/>
+            <ArticleType/>
         </div>
     )
 }

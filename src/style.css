@@ -1,0 +1,12 @@
+.colorType{
+    background: lightgoldenrodyellow;
+    display: inline-block;
+}
+.colorId {
+    color: royalblue;
+    display: inline-block;
+    margin-left: 10px;
+}
+.colorUrl{
+    color: darkred;
+}
